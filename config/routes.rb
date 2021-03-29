@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :tickets
   resources :awards
   resources :raffles
   resources :users
